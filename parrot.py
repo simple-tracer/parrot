@@ -10,24 +10,26 @@ if len(sys.argv) == 1:
 
   print("Oops! Please provide command line arguments.")
 
-f = Fernet(input("Secret key: "))
+else:
+  
+  f = Fernet(input("Secret key: "))
 
-api_key = input("Airtable API Key: ")
+  api_key = input("Airtable API Key: ")
 
-base_key = input("Airtable Base Key: ")
+  base_key = input("Airtable Base Key: ")
 
-table = Airtable(base_key, 'Admins', api_key)
+  table = Airtable(base_key, 'Admins', api_key)
 
 if sys.argv[1] == "new":
 
-    users_email = input("Admin Username: ")
+  users_email = input("Admin Username: ")
 
-    users_password = f.encrypt(input("Admin Code: ").encode())
+  users_password = f.encrypt(input("Admin Code: ").encode())
 
-    try:
-      table.insert({'Username': users_email,'Password': users_password.decode("utf-8") })
-    except:
-      print("Oops!  There was an error. Please check you are using valid API crediantals.")
+  try:
+    table.insert({'Username': users_email,'Password': users_password.decode("utf-8") })
+  except:
+    print("Oops!  There was an error. Please check you are using valid API crediantals.")
 
 elif sys.argv[1] == "update":
 
