@@ -19,12 +19,11 @@ If you find a bug please report it using GitHub Issues.
 To set up a local development environment please follow these instructions:
 
 * Clone the repo by `git clone https://github.com/simple-tracer/parrot.git`. You can also use SSH.
-* cd into the cloned repo.
-* install
-
-## Context
-
-This was built at MLH's NotUniversity Hacks. I am an avid participant in my school's quiz bowl team. Sadly we don't have any buzzers and purchasing buzzers for the whole team costs upwards of $1,000. I built this app so teams like mine can practise quiz bowl without a large upfront cost.
+* `cd` into the cloned repo.
+* Run `pip3 install -r requirements.txt`
+* Code!
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
+
+_This repo is maintained by Sam Poder_
