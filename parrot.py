@@ -43,7 +43,7 @@ elif sys.argv[1] == "update":
   except:
     print("Oops!  There was an error. Please check you are using valid API crediantals.")
 
-elif sys.argv[1] == "remove":
+elif sys.argv[1] == "delete":
 
   users_email = input("Admin Username: ")
 
