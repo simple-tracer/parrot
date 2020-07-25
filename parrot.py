@@ -38,7 +38,7 @@ elif sys.argv[1] == "update":
   users_password = f.encrypt(input("New Admin Code: ").encode())
 
   try:
-    table.update_by_field('Username', users_email, {'Email': users_email,'Password': users_password.decode("utf-8") })
+    table.update_by_field('Username', users_email, {'Username': users_email,'Password': users_password.decode("utf-8") })
 
   except:
     print("Oops!  There was an error. Please check you are using valid API crediantals.")
