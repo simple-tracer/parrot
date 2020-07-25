@@ -18,10 +18,10 @@ If you find a bug please report it using GitHub Issues.
 
 To set up a local development environment please follow these instructions:
 
-* Set up a test instance of Simple Tracer, details can be found [here](https://github.com/simple-tracer/about)
+* Set up a test instance of Simple Tracer, details can be found [here](https://github.com/simple-tracer/about).
 * Clone the repo by `git clone https://github.com/simple-tracer/parrot.git`. You can also use SSH.
 * `cd` into the cloned repo.
-* Run `pip3 install -r requirements.txt`
+* Run `pip3 install -r requirements.txt`.
 * Code!
 
 ## License
