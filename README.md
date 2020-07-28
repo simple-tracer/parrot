@@ -4,7 +4,7 @@ Parrot is a Python script to assist you in creating users for the [Hornbill](htt
 
 ## Usage
 
-Usage instructions found [here](https://github.com/simple-tracer/about#-stage-5-parrot).
+Usage instructions found [here](https://github.com/simple-tracer/about#-stage-4-parrot).
 
 ## Technology Used
 
